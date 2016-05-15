@@ -1,0 +1,11 @@
+同步、异步区别：同步是有时序性的进行每个步骤，异步则不需要，有人告诉它结果，如回调；
+阻塞、非阻塞区别：着重点在于程序在遇到阻塞和非阻塞之后的状态来定性；阻塞则当前程序挂起，非阻塞立即返回结果
+
+
+pom中的dependencies和dependencymanagement区别：
+	dependencies指定了依赖项，即子pom文件没有依赖某个三方包，也会继承父pom中dependencies所定义的依赖项
+	dependencymanagement则是对版本的统一管理，子类可以只需要写依赖项的groupId和artifactId即可，版本号与dependencymanagement定义的相对应；
+
+git push -u:此u为upstream;即指定push的远程仓库；因为跟踪的远程仓库不只一个；
+
+
